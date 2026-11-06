@@ -7,9 +7,9 @@ import net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.ChatScreen;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.input.KeyEvent;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
@@ -25,6 +25,10 @@ import java.util.List;
 /**
  * In a screen such as an auction house: holding Shift (or Ctrl) over a listing for a moment closes the screen and
  * opens the chat with a command about the seller already typed, e.g. "/ah Notch". Nothing is sent: Enter does that.
+ * <p>
+ * Any screen that shows an item with a seller line counts, not only chest-like ones: some servers name the seller
+ * only in a confirmation window, which is a server dialog (DonutSMP: right-click a listing, "Are you sure you want
+ * to buy this?"). The chat, where Shift is for typing, is left out.
  * <p>
  * The key has to be held over the same seller's listing for a little while, so a quick shift-click (or holding Shift
  * for another mod's tooltip) is left alone; a click while it is held cancels it.
@@ -47,9 +51,9 @@ public final class ListingShortcut {
     public static void register() {
         ItemTooltipCallback.EVENT.register((stack, context, flag, lines) -> tooltip(stack, lines));
         ScreenEvents.AFTER_INIT.register((client, screen, width, height) -> {
-            if (!(screen instanceof AbstractContainerScreen<?>)) return;
+            if (screen instanceof ChatScreen) return;
             reset();
-            ScreenKeyboardEvents.afterKeyPress(screen).register((s, event) -> keyDown(event));
+            ScreenKeyboardEvents.afterKeyPress(screen).register(ListingShortcut::keyDown);
             ScreenKeyboardEvents.afterKeyRelease(screen).register((s, event) -> keyUp(event));
             ScreenMouseEvents.allowMouseClick(screen).register((s, event) -> {
                 // a click while the key is held (a shift-click) cancels this hold
@@ -78,7 +82,8 @@ public final class ListingShortcut {
 
     private static void tooltip(ItemStack stack, List<Component> lines) {
         SellerLookupConfig config = SellerLookupConfig.get();
-        if (!config.enabled || !(Compat.screen(Minecraft.getInstance()) instanceof AbstractContainerScreen<?>)) return;
+        Screen screen = Compat.screen(Minecraft.getInstance());
+        if (!config.enabled || screen == null || screen instanceof ChatScreen) return;
         String found = sellerOf(stack);
         if (found == null) return;
         long now = System.currentTimeMillis();
@@ -101,7 +106,9 @@ public final class ListingShortcut {
         return key == InputConstants.getKey(left).getValue() || key == InputConstants.getKey(right).getValue();
     }
 
-    private static void keyDown(KeyEvent event) {
+    private static void keyDown(Screen screen, KeyEvent event) {
+        // Shift while typing into a text box in the screen is for capitals
+        if (screen.getFocused() instanceof EditBox) return;
         long now = System.currentTimeMillis();
         boolean shift = is(event, "key.keyboard.left.shift", "key.keyboard.right.shift");
         boolean ctrl = is(event, "key.keyboard.left.control", "key.keyboard.right.control");

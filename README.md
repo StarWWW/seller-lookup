@@ -18,6 +18,16 @@ Kısa bir Shift basışı ya da Shift'le tıklama (shift-click) eskisi gibi çal
 
 Ekran, sunucuya da kapatıldığı söylenerek kapanır (Esc ile kapatmak gibi).
 
+Kısayol sadece sandık benzeri ekranlarda değil, satıcısı yazan bir eşya gösteren her ekranda çalışır (sohbet hariç), sunucunun açtığı onay pencereleri de buna dahil. Ekrandaki bir yazı kutusuna yazı yazarken Shift büyük harf içindir, o sırada kısayol çalışmaz.
+
+### DonutSMP
+
+DonutSMP'de `/ah` listesindeki ilanlarda sadece fiyat yazar (`$ 100M`), satıcı yazmaz; o yüzden listede ipucu satırı çıkmaz ve Shift bir şey yapmaz. Satıcı, ilana **sağ tıklayınca** açılan onay penceresinde ("Are you sure you want to buy this?") yazar:
+
+1. `/ah`'da ilana sağ tıkla.
+2. Açılan pencerede fareyle eşyanın üstüne gel: ipucunda `Seller: _Restrict` ve altında `Shift basılı tut: /ah _Restrict` görünür.
+3. Shift'e (ya da Ctrl'ye) basılı tut: pencere kapanır, sohbet komut yazılı açılır. Mod hiçbir şeye tıklamaz; pencerede **Yes**'e basmadıkça bir şey satın alınmaz.
+
 ### Satıcı nasıl okunuyor
 
 İlanın altındaki satırlarda `Seller`, `Satıcı`, `Owner`, `Sahibi`, `Sold by`, `Player` gibi bir kelime aranır ve ondan sonra gelen ilk oyuncu adı alınır. Rütbeler (`[VIP]`, `[+]`) atlanır, Bedrock adlarının başındaki `.` ya da `*` korunur. Ad bir sonraki satırdaysa (ör. `Seller:` ve altında `Notch`) o da okunur:
