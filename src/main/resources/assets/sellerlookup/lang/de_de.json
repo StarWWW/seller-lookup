@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Allgemein",
+  "sellerlookup.screen.enabled": "Aktiv",
+  "sellerlookup.screen.enabled.tooltip": "Halte Shift oder Strg über einem Angebot, um einen Befehl zu dessen Verkäufer einzutippen.",
+  "sellerlookup.screen.hint": "Im Tooltip zeigen",
+  "sellerlookup.screen.hint.tooltip": "Zeigt unter jedem Angebot, was Shift oder Strg eintippen würden, damit du siehst, ob der Verkäufer richtig gelesen wurde.",
+  "sellerlookup.screen.hold": "Halten: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Wie lange die Taste über einem Angebot gehalten werden muss. Ein schneller Shift-Klick funktioniert weiter, ein Klick beim Halten bricht ab.",
+  "sellerlookup.section.shift": "Shift halten",
+  "sellerlookup.section.ctrl": "Strg halten",
+  "sellerlookup.screen.command": "Befehl",
+  "sellerlookup.screen.command.tooltip": "Wird in den Chat getippt, nicht gesendet: Enter sendet ihn. {seller} wird zum Namen des Verkäufers. Leer lassen schaltet diese Taste ab.",
+  "sellerlookup.screen.info": "{seller} wird zum Namen des Verkäufers · nichts wird gesendet, bis du Enter drückst",
+  "sellerlookup.screen.reset": "Standard",
+  "sellerlookup.screen.reset.title": "Einstellungen auf Standard zurücksetzen?",
+  "sellerlookup.screen.reset.message": "/ah {seller} für Shift und /stats {seller} für Strg.",
+  "sellerlookup.tooltip.shift": "Shift halten: %s",
+  "sellerlookup.tooltip.ctrl": "Strg halten: %s",
+  "key.sellerlookup.settings": "Seller-Lookup-Einstellungen",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

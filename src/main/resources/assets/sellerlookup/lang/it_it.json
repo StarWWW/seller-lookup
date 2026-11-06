@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Generale",
+  "sellerlookup.screen.enabled": "Attivo",
+  "sellerlookup.screen.enabled.tooltip": "Tieni premuto Maiusc o Ctrl su un'offerta per scrivere un comando sul suo venditore.",
+  "sellerlookup.screen.hint": "Mostra nel suggerimento",
+  "sellerlookup.screen.hint.tooltip": "Sotto ogni offerta, mostra cosa scriverebbe Maiusc o Ctrl, così vedi se il venditore è stato letto bene.",
+  "sellerlookup.screen.hold": "Tieni premuto: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Quanto tenere premuto il tasto su un'offerta. Un rapido Maiusc+clic funziona ancora, e cliccare mentre lo tieni annulla.",
+  "sellerlookup.section.shift": "Tieni Maiusc",
+  "sellerlookup.section.ctrl": "Tieni Ctrl",
+  "sellerlookup.screen.command": "Comando",
+  "sellerlookup.screen.command.tooltip": "Scritto in chat, non inviato: premi Invio per inviarlo. {seller} diventa il nome del venditore. Lascia vuoto per disattivare questo tasto.",
+  "sellerlookup.screen.info": "{seller} diventa il nome del venditore · nulla viene inviato finché non premi Invio",
+  "sellerlookup.screen.reset": "Predefiniti",
+  "sellerlookup.screen.reset.title": "Riportare le impostazioni ai valori predefiniti?",
+  "sellerlookup.screen.reset.message": "/ah {seller} per Maiusc e /stats {seller} per Ctrl.",
+  "sellerlookup.tooltip.shift": "Tieni Maiusc: %s",
+  "sellerlookup.tooltip.ctrl": "Tieni Ctrl: %s",
+  "key.sellerlookup.settings": "Impostazioni di Seller Lookup",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

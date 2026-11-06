@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Général",
+  "sellerlookup.screen.enabled": "Activé",
+  "sellerlookup.screen.enabled.tooltip": "Maintiens Maj ou Ctrl sur une offre pour taper une commande sur son vendeur.",
+  "sellerlookup.screen.hint": "Afficher dans l'infobulle",
+  "sellerlookup.screen.hint.tooltip": "Sous chaque offre, montre ce que Maj ou Ctrl taperait, pour voir si le vendeur a été bien lu.",
+  "sellerlookup.screen.hold": "Maintenir : %s ms",
+  "sellerlookup.screen.hold.tooltip": "Combien de temps maintenir la touche sur une offre. Un clic rapide avec Maj fonctionne toujours, et cliquer pendant le maintien annule.",
+  "sellerlookup.section.shift": "Maintenir Maj",
+  "sellerlookup.section.ctrl": "Maintenir Ctrl",
+  "sellerlookup.screen.command": "Commande",
+  "sellerlookup.screen.command.tooltip": "Tapée dans le chat, pas envoyée : appuie sur Entrée pour l'envoyer. {seller} devient le nom du vendeur. Laisse vide pour désactiver cette touche.",
+  "sellerlookup.screen.info": "{seller} devient le nom du vendeur · rien n'est envoyé avant Entrée",
+  "sellerlookup.screen.reset": "Par défaut",
+  "sellerlookup.screen.reset.title": "Remettre les réglages par défaut ?",
+  "sellerlookup.screen.reset.message": "/ah {seller} pour Maj et /stats {seller} pour Ctrl.",
+  "sellerlookup.tooltip.shift": "Maintenir Maj : %s",
+  "sellerlookup.tooltip.ctrl": "Maintenir Ctrl : %s",
+  "key.sellerlookup.settings": "Réglages de Seller Lookup",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

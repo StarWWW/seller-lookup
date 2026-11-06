@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Ogólne",
+  "sellerlookup.screen.enabled": "Włączone",
+  "sellerlookup.screen.enabled.tooltip": "Przytrzymaj Shift lub Ctrl nad ofertą, aby wpisać polecenie dotyczące sprzedawcy.",
+  "sellerlookup.screen.hint": "Pokazuj w podpowiedzi",
+  "sellerlookup.screen.hint.tooltip": "Pod każdą ofertą pokazuje, co wpisałby Shift lub Ctrl, żebyś widział, czy sprzedawca został dobrze odczytany.",
+  "sellerlookup.screen.hold": "Przytrzymaj: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Jak długo trzymać klawisz nad ofertą. Szybki shift-klik dalej działa, a kliknięcie podczas trzymania anuluje.",
+  "sellerlookup.section.shift": "Przytrzymaj Shift",
+  "sellerlookup.section.ctrl": "Przytrzymaj Ctrl",
+  "sellerlookup.screen.command": "Polecenie",
+  "sellerlookup.screen.command.tooltip": "Wpisywane do czatu, nie wysyłane: naciśnij Enter, aby wysłać. {seller} staje się nazwą sprzedawcy. Zostaw puste, aby wyłączyć ten klawisz.",
+  "sellerlookup.screen.info": "{seller} staje się nazwą sprzedawcy · nic nie zostanie wysłane, dopóki nie naciśniesz Enter",
+  "sellerlookup.screen.reset": "Domyślne",
+  "sellerlookup.screen.reset.title": "Przywrócić domyślne ustawienia?",
+  "sellerlookup.screen.reset.message": "/ah {seller} dla Shift i /stats {seller} dla Ctrl.",
+  "sellerlookup.tooltip.shift": "Przytrzymaj Shift: %s",
+  "sellerlookup.tooltip.ctrl": "Przytrzymaj Ctrl: %s",
+  "key.sellerlookup.settings": "Ustawienia Seller Lookup",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

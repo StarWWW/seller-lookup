@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "General",
+  "sellerlookup.screen.enabled": "Activado",
+  "sellerlookup.screen.enabled.tooltip": "Mantén Mayús o Ctrl sobre una oferta para escribir un comando sobre su vendedor.",
+  "sellerlookup.screen.hint": "Mostrar en la descripción",
+  "sellerlookup.screen.hint.tooltip": "Debajo de cada oferta, muestra lo que escribiría Mayús o Ctrl, para ver que el vendedor se leyó bien.",
+  "sellerlookup.screen.hold": "Mantener: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Cuánto mantener la tecla sobre una oferta. Un Mayús+clic rápido sigue funcionando, y hacer clic mientras la mantienes lo cancela.",
+  "sellerlookup.section.shift": "Mantener Mayús",
+  "sellerlookup.section.ctrl": "Mantener Ctrl",
+  "sellerlookup.screen.command": "Comando",
+  "sellerlookup.screen.command.tooltip": "Se escribe en el chat, no se envía: pulsa Intro para enviarlo. {seller} se convierte en el nombre del vendedor. Déjalo vacío para desactivar esta tecla.",
+  "sellerlookup.screen.info": "{seller} se convierte en el nombre del vendedor · no se envía nada hasta que pulses Intro",
+  "sellerlookup.screen.reset": "Predeterminado",
+  "sellerlookup.screen.reset.title": "¿Volver a los ajustes predeterminados?",
+  "sellerlookup.screen.reset.message": "/ah {seller} para Mayús y /stats {seller} para Ctrl.",
+  "sellerlookup.tooltip.shift": "Mantener Mayús: %s",
+  "sellerlookup.tooltip.ctrl": "Mantener Ctrl: %s",
+  "key.sellerlookup.settings": "Ajustes de Seller Lookup",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

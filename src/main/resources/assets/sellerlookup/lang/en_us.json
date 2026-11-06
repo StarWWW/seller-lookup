@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "General",
+  "sellerlookup.screen.enabled": "Enabled",
+  "sellerlookup.screen.enabled.tooltip": "Hold Shift or Ctrl over a listing to type a command about its seller.",
+  "sellerlookup.screen.hint": "Show in the tooltip",
+  "sellerlookup.screen.hint.tooltip": "Under each listing, show what holding Shift or Ctrl would type, so you can see the seller was read right.",
+  "sellerlookup.screen.hold": "Hold for: %s ms",
+  "sellerlookup.screen.hold.tooltip": "How long to hold the key over a listing. A quick shift-click still works, and clicking while you hold cancels it.",
+  "sellerlookup.section.shift": "Hold Shift",
+  "sellerlookup.section.ctrl": "Hold Ctrl",
+  "sellerlookup.screen.command": "Command",
+  "sellerlookup.screen.command.tooltip": "Typed into the chat, not sent: press Enter to send it. {seller} becomes the seller's name. Leave it empty to turn this key off.",
+  "sellerlookup.screen.info": "{seller} becomes the seller's name · nothing is sent until you press Enter",
+  "sellerlookup.screen.reset": "Defaults",
+  "sellerlookup.screen.reset.title": "Put the settings back to their defaults?",
+  "sellerlookup.screen.reset.message": "/ah {seller} for Shift and /stats {seller} for Ctrl.",
+  "sellerlookup.tooltip.shift": "Hold Shift: %s",
+  "sellerlookup.tooltip.ctrl": "Hold Ctrl: %s",
+  "key.sellerlookup.settings": "Seller Lookup settings",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

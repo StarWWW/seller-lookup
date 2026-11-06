@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "全般",
+  "sellerlookup.screen.enabled": "有効",
+  "sellerlookup.screen.enabled.tooltip": "出品の上で Shift か Ctrl を押し続けると、出品者についてのコマンドを入力します。",
+  "sellerlookup.screen.hint": "ツールチップに表示",
+  "sellerlookup.screen.hint.tooltip": "各出品の下に、Shift か Ctrl を押し続けたときに入力される内容を表示します。出品者が正しく読み取れたか確認できます。",
+  "sellerlookup.screen.hold": "長押し：%s ms",
+  "sellerlookup.screen.hold.tooltip": "出品の上でキーを押し続ける時間。素早い Shift クリックはそのまま使え、押している間にクリックすると取り消されます。",
+  "sellerlookup.section.shift": "Shift を長押し",
+  "sellerlookup.section.ctrl": "Ctrl を長押し",
+  "sellerlookup.screen.command": "コマンド",
+  "sellerlookup.screen.command.tooltip": "チャットに入力されるだけで送信はされません。Enter で送信します。{seller} は出品者の名前になります。空にするとこのキーは無効になります。",
+  "sellerlookup.screen.info": "{seller} は出品者の名前になります · Enter を押すまで何も送信されません",
+  "sellerlookup.screen.reset": "初期設定",
+  "sellerlookup.screen.reset.title": "設定を初期値に戻しますか？",
+  "sellerlookup.screen.reset.message": "Shift は /ah {seller}、Ctrl は /stats {seller}。",
+  "sellerlookup.tooltip.shift": "Shift を長押し：%s",
+  "sellerlookup.tooltip.ctrl": "Ctrl を長押し：%s",
+  "key.sellerlookup.settings": "Seller Lookup の設定",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

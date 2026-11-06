@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Geral",
+  "sellerlookup.screen.enabled": "Ativado",
+  "sellerlookup.screen.enabled.tooltip": "Segure Shift ou Ctrl sobre um anúncio para digitar um comando sobre o vendedor.",
+  "sellerlookup.screen.hint": "Mostrar na dica",
+  "sellerlookup.screen.hint.tooltip": "Mostra embaixo de cada anúncio o que Shift ou Ctrl digitaria, para você ver se o vendedor foi lido certo.",
+  "sellerlookup.screen.hold": "Segurar: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Quanto tempo segurar a tecla sobre um anúncio. Um shift-clique rápido continua funcionando, e clicar enquanto segura cancela.",
+  "sellerlookup.section.shift": "Segurar Shift",
+  "sellerlookup.section.ctrl": "Segurar Ctrl",
+  "sellerlookup.screen.command": "Comando",
+  "sellerlookup.screen.command.tooltip": "Digitado no chat, não enviado: aperte Enter para enviar. {seller} vira o nome do vendedor. Deixe vazio para desligar esta tecla.",
+  "sellerlookup.screen.info": "{seller} vira o nome do vendedor · nada é enviado até você apertar Enter",
+  "sellerlookup.screen.reset": "Padrões",
+  "sellerlookup.screen.reset.title": "Voltar as configurações ao padrão?",
+  "sellerlookup.screen.reset.message": "/ah {seller} para Shift e /stats {seller} para Ctrl.",
+  "sellerlookup.tooltip.shift": "Segurar Shift: %s",
+  "sellerlookup.tooltip.ctrl": "Segurar Ctrl: %s",
+  "key.sellerlookup.settings": "Configurações do Seller Lookup",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

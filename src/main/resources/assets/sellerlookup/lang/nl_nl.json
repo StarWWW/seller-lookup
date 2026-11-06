@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Algemeen",
+  "sellerlookup.screen.enabled": "Aan",
+  "sellerlookup.screen.enabled.tooltip": "Houd Shift of Ctrl ingedrukt boven een aanbieding om een commando over de verkoper te typen.",
+  "sellerlookup.screen.hint": "In de tooltip tonen",
+  "sellerlookup.screen.hint.tooltip": "Toont onder elke aanbieding wat Shift of Ctrl zou typen, zodat je ziet of de verkoper goed is gelezen.",
+  "sellerlookup.screen.hold": "Ingedrukt houden: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Hoe lang de toets boven een aanbieding ingedrukt moet blijven. Een snelle shift-klik werkt nog, en klikken tijdens het vasthouden annuleert.",
+  "sellerlookup.section.shift": "Shift ingedrukt houden",
+  "sellerlookup.section.ctrl": "Ctrl ingedrukt houden",
+  "sellerlookup.screen.command": "Commando",
+  "sellerlookup.screen.command.tooltip": "Wordt in de chat getypt, niet verzonden: druk op Enter om het te verzenden. {seller} wordt de naam van de verkoper. Laat leeg om deze toets uit te zetten.",
+  "sellerlookup.screen.info": "{seller} wordt de naam van de verkoper · er wordt niets verzonden tot je op Enter drukt",
+  "sellerlookup.screen.reset": "Standaard",
+  "sellerlookup.screen.reset.title": "Instellingen terugzetten naar standaard?",
+  "sellerlookup.screen.reset.message": "/ah {seller} voor Shift en /stats {seller} voor Ctrl.",
+  "sellerlookup.tooltip.shift": "Shift ingedrukt houden: %s",
+  "sellerlookup.tooltip.ctrl": "Ctrl ingedrukt houden: %s",
+  "key.sellerlookup.settings": "Seller Lookup-instellingen",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

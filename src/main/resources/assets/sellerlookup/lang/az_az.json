@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Ümumi",
+  "sellerlookup.screen.enabled": "Açıq",
+  "sellerlookup.screen.enabled.tooltip": "Bir elanın üstündə Shift və ya Ctrl basılı saxlayanda satıcı ilə bağlı bir əmr yazılır.",
+  "sellerlookup.screen.hint": "İpucunda göstər",
+  "sellerlookup.screen.hint.tooltip": "Hər elanın altında Shift və ya Ctrl basılı saxlananda nə yazılacağını göstərir; satıcının düzgün oxunduğunu belə görərsən.",
+  "sellerlookup.screen.hold": "Basılı saxla: %s ms",
+  "sellerlookup.screen.hold.tooltip": "Düymənin elanın üstündə nə qədər basılı saxlanacağı. Sürətli shift-klik yenə işləyir, basılı saxlayarkən kliklədikdə ləğv olunur.",
+  "sellerlookup.section.shift": "Shift basılı saxla",
+  "sellerlookup.section.ctrl": "Ctrl basılı saxla",
+  "sellerlookup.screen.command": "Əmr",
+  "sellerlookup.screen.command.tooltip": "Söhbətə yazılır, göndərilmir: göndərmək üçün Enter bas. {seller} satıcının adı olur. Bu düyməni bağlamaq üçün boş burax.",
+  "sellerlookup.screen.info": "{seller} satıcının adı olur · Enter basana qədər heç nə göndərilmir",
+  "sellerlookup.screen.reset": "Standart",
+  "sellerlookup.screen.reset.title": "Ayarlar standarta qayıtsın?",
+  "sellerlookup.screen.reset.message": "Shift üçün /ah {seller}, Ctrl üçün /stats {seller}.",
+  "sellerlookup.tooltip.shift": "Shift basılı saxla: %s",
+  "sellerlookup.tooltip.ctrl": "Ctrl basılı saxla: %s",
+  "key.sellerlookup.settings": "Seller Lookup ayarları",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

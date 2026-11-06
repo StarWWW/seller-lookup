@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "일반",
+  "sellerlookup.screen.enabled": "사용",
+  "sellerlookup.screen.enabled.tooltip": "판매 목록 위에서 Shift나 Ctrl을 누르고 있으면 판매자에 대한 명령어를 입력합니다.",
+  "sellerlookup.screen.hint": "툴팁에 표시",
+  "sellerlookup.screen.hint.tooltip": "각 판매 목록 아래에 Shift나 Ctrl을 누르고 있을 때 입력될 내용을 보여 줍니다. 판매자가 제대로 읽혔는지 확인할 수 있습니다.",
+  "sellerlookup.screen.hold": "누르고 있기: %s ms",
+  "sellerlookup.screen.hold.tooltip": "판매 목록 위에서 키를 누르고 있어야 하는 시간. 빠른 Shift 클릭은 그대로 되고, 누르고 있는 동안 클릭하면 취소됩니다.",
+  "sellerlookup.section.shift": "Shift 누르고 있기",
+  "sellerlookup.section.ctrl": "Ctrl 누르고 있기",
+  "sellerlookup.screen.command": "명령어",
+  "sellerlookup.screen.command.tooltip": "채팅에 입력만 되고 보내지지 않습니다. Enter를 눌러 보내세요. {seller}는 판매자 이름이 됩니다. 비워 두면 이 키는 꺼집니다.",
+  "sellerlookup.screen.info": "{seller}는 판매자 이름이 됩니다 · Enter를 누를 때까지 아무것도 보내지 않습니다",
+  "sellerlookup.screen.reset": "기본값",
+  "sellerlookup.screen.reset.title": "설정을 기본값으로 되돌릴까요?",
+  "sellerlookup.screen.reset.message": "Shift는 /ah {seller}, Ctrl은 /stats {seller}.",
+  "sellerlookup.tooltip.shift": "Shift 누르고 있기: %s",
+  "sellerlookup.tooltip.ctrl": "Ctrl 누르고 있기: %s",
+  "key.sellerlookup.settings": "Seller Lookup 설정",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

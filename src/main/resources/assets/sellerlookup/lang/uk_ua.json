@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "Загальні",
+  "sellerlookup.screen.enabled": "Увімкнено",
+  "sellerlookup.screen.enabled.tooltip": "Утримуй Shift або Ctrl над лотом, щоб набрати команду про його продавця.",
+  "sellerlookup.screen.hint": "Показувати в підказці",
+  "sellerlookup.screen.hint.tooltip": "Під кожним лотом показує, що наберуть Shift або Ctrl, щоб було видно, чи правильно прочитано продавця.",
+  "sellerlookup.screen.hold": "Утримувати: %s мс",
+  "sellerlookup.screen.hold.tooltip": "Скільки утримувати клавішу над лотом. Швидкий shift-клік і далі працює, а клік під час утримання скасовує.",
+  "sellerlookup.section.shift": "Утримувати Shift",
+  "sellerlookup.section.ctrl": "Утримувати Ctrl",
+  "sellerlookup.screen.command": "Команда",
+  "sellerlookup.screen.command.tooltip": "Набирається в чаті, але не надсилається: натисни Enter, щоб надіслати. {seller} замінюється іменем продавця. Залиш порожнім, щоб вимкнути цю клавішу.",
+  "sellerlookup.screen.info": "{seller} замінюється іменем продавця · нічого не надсилається, доки не натиснеш Enter",
+  "sellerlookup.screen.reset": "Типові",
+  "sellerlookup.screen.reset.title": "Повернути типові налаштування?",
+  "sellerlookup.screen.reset.message": "/ah {seller} для Shift і /stats {seller} для Ctrl.",
+  "sellerlookup.tooltip.shift": "Утримувати Shift: %s",
+  "sellerlookup.tooltip.ctrl": "Утримувати Ctrl: %s",
+  "key.sellerlookup.settings": "Налаштування Seller Lookup",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

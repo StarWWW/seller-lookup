@@ -1,0 +1,22 @@
+{
+  "sellerlookup.screen.title": "Seller Lookup",
+  "sellerlookup.section.general": "常规",
+  "sellerlookup.screen.enabled": "启用",
+  "sellerlookup.screen.enabled.tooltip": "在拍卖品上按住 Shift 或 Ctrl，即可输入与卖家有关的命令。",
+  "sellerlookup.screen.hint": "在提示中显示",
+  "sellerlookup.screen.hint.tooltip": "在每件拍卖品下方显示按住 Shift 或 Ctrl 时会输入的内容，方便确认卖家是否读取正确。",
+  "sellerlookup.screen.hold": "按住：%s 毫秒",
+  "sellerlookup.screen.hold.tooltip": "需要在拍卖品上按住按键多久。快速 Shift 点击仍然有效，按住时点击会取消。",
+  "sellerlookup.section.shift": "按住 Shift",
+  "sellerlookup.section.ctrl": "按住 Ctrl",
+  "sellerlookup.screen.command": "命令",
+  "sellerlookup.screen.command.tooltip": "只会输入到聊天栏，不会发送：按 Enter 发送。{seller} 会变成卖家的名字。留空即可关闭此按键。",
+  "sellerlookup.screen.info": "{seller} 会变成卖家的名字 · 按 Enter 之前不会发送任何内容",
+  "sellerlookup.screen.reset": "默认",
+  "sellerlookup.screen.reset.title": "将设置恢复为默认值？",
+  "sellerlookup.screen.reset.message": "Shift 为 /ah {seller}，Ctrl 为 /stats {seller}。",
+  "sellerlookup.tooltip.shift": "按住 Shift：%s",
+  "sellerlookup.tooltip.ctrl": "按住 Ctrl：%s",
+  "key.sellerlookup.settings": "Seller Lookup 设置",
+  "key.category.sellerlookup.keybindings": "Seller Lookup"
+}

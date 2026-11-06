@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sellerlookup",
+  "version": "${version}",
+  "name": "Seller Lookup",
+  "description": "Hold Shift (or Ctrl) over a listing in an auction house: the screen closes and the chat opens with a command about the seller already typed, such as /ah <seller> or /stats <seller>. Nothing is sent until you press Enter.",
+  "license": "MIT",
+  "authors": ["StarWWW"],
+  "contact": {
+    "homepage": "https://github.com/StarWWW/seller-lookup",
+    "sources": "https://github.com/StarWWW/seller-lookup",
+    "issues": "https://github.com/StarWWW/seller-lookup/issues"
+  },
+  "icon": "assets/sellerlookup/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "sellerlookup.SellerLookupMod"
+    ],
+    "modmenu": [
+      "sellerlookup.compat.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "${minecraft_range}",
+    "java": ">=25",
+    "fabric-api": ">=${fabric_api_version}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
